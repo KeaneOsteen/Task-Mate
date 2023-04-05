@@ -8,10 +8,13 @@ export default function Navbar() {
         </a>
         <ul>
             <li className='active'>
-                <a href='/test1'>test1</a>
+                <a href='/'>Home</a>
             </li>
             <li className='active'>
-                <a href='/test2'>test2</a>
+                <a href='/pricing'>Pricing</a>
+            </li>
+            <li className='active'>
+                <a href='/about'>About</a>
             </li>
         </ul>
     </nav>
