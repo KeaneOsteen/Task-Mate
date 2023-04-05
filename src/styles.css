@@ -14,6 +14,7 @@ body {
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
+    font-family: sans-serif;
 }
 
 .nav ul {
