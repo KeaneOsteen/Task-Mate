@@ -1,0 +1,16 @@
+.home {
+    width: 500px;
+    height: 250px;
+    /*outline: solid 1px black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+}
+
+.motto-li li {
+    color: #FC6D6D;
+    font-size: 100px;
+}

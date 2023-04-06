@@ -10,10 +10,10 @@ function App() {
     case "/":
       page = <Home />
       break
-    case "/pricing":
+    case "/Pricing":
       page = <Pricing />
       break
-    case "/about":
+    case "/About":
       page = <About />
       break
 
