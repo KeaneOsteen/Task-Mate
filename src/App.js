@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Pricing from './pages/Pricing';
-import About from './pages/About';
-import Home from './pages/Home';
+import Pricing from './components/pages/Pricing';
+import About from './components/pages/About';
+import Home from './components/pages/Home';
 
 function App() {
   let component;
