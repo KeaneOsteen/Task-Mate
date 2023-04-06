@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
   return (
     <nav className='nav'>
-        <a href='/' className='site-title'>
+        <a href='/'>
             <h3><strong>Task Mate</strong></h3>
         </a>
         <ul>
