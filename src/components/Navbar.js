@@ -1,20 +1,26 @@
 import React from 'react'
+import './Navbar.css'
 
 export default function Navbar() {
+
   return (
-    <nav className='nav'>
-        <a href='/'>
-            <h3><strong>Task Mate</strong></h3>
-        </a>
-        <ul>
-            <li className='active'>
-                <a href='/'>Home</a>
+    <nav className='navbar'>
+        <a href ='/' className='navbar-logo'>Task Mate</a>
+        <ul className='nav-menu'>
+            <li className='nav-item'>
+                <a href='/' className='nav-links' >
+                    Home
+                </a>
             </li>
-            <li className='active'>
-                <a href='/pricing'>Pricing</a>
+            <li className='nav-item'>
+                <a href='/About' className='nav-links' >
+                    About
+                </a>
             </li>
-            <li className='active'>
-                <a href='/about'>About</a>
+            <li className='nav-item'>
+                <a href='/Pricing' className='nav-links' >
+                    Pricing 
+                </a>
             </li>
         </ul>
     </nav>
