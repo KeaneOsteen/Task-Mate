@@ -5,16 +5,16 @@ import About from './components/pages/About';
 import Home from './components/pages/Home';
 
 function App() {
-  let component;
+  let page;
   switch (window.location.pathname) {
     case "/":
-      component = <Home/>
+      page = <Home />
       break
     case "/pricing":
-      component = <Pricing/>
+      page = <Pricing />
       break
     case "/about":
-      component = <About/>
+      page = <About />
       break
 
     default:
@@ -22,8 +22,8 @@ function App() {
 
   return (
     <>
-      <Navbar/>
-      {component}
+      <Navbar />
+      {page}
     </>
   );
 }
