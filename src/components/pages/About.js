@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 
 export default function About() {
+export default function About() {
   return (
     <div className='page-content'>
       <div className='mission-statement'>
